@@ -1,0 +1,41 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parent {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #f0b90b;
+    margin-bottom: 40px;
+  }
+  
+  .child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .child-image img {
+    max-width: 100%;
+    height: auto;
+    
+    
+  }
+  
+  .child-text {
+    max-width: 50%;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .child-text p {
+    color: #cccccc;
+    font-size: large;
+  }
